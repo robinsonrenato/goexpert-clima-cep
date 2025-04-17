@@ -115,39 +115,7 @@ Este projeto é uma aplicação em Go que consulta informações climáticas com
 ```
 
 **Status HTTP:** `500 Internal Server Error`
-
 ---
-
-## 🏗️ Estrutura do Projeto
-
-```plaintext
-.
-├── cmd
-│   └── server
-│       └── main.go          # Ponto de entrada da aplicação
-├── internal
-│   ├── controller
-│   │   └── weather_handler.go # Handler HTTP para o endpoint de clima
-│   ├── service
-│   │   └── weather_service.go # Lógica de negócio para consulta de clima
-│   ├── model
-│   │   └── client.go         # Interfaces para os clientes externos
-│   └── util
-│       └── temperature.go    # Funções utilitárias para conversão de temperatura
-├── test
-│   ├── controller
-│   │   └── weather_handler_test.go # Testes para o handler HTTP
-│   ├── service
-│   │   └── weather_service_test.go # Testes para o serviço de clima
-│   └── util
-│       └── util_test.go            # Testes para funções utilitárias
-├── Dockerfile                     # Configuração para construir a imagem Docker
-├── docker-compose.yml             # Configuração para gerenciar os serviços com Docker Compose
-└── go.mod                         # Gerenciamento de dependências do Go
-```
-
----
-
 ## Licença
 
 Este projeto está licenciado sob a [MIT License](LICENSE).
