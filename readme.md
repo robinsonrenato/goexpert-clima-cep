@@ -23,16 +23,7 @@ Este projeto é uma aplicação em Go que consulta informações climáticas com
 1. **Clone o repositório:**
    ```bash
    git clone https://github.com/seu-usuario/seu-repositorio.git
-   cd seu-repositorio
-   ```
-
-2. **Atualize as dependências:**
-   ```bash
    go mod tidy
-   ```
-
-3. **Execute o servidor:**
-   ```bash
    go run ./cmd/server
    ```
 
