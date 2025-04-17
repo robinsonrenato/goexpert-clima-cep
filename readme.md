@@ -115,6 +115,7 @@ Este projeto é uma aplicação em Go que consulta informações climáticas com
 ```
 
 **Status HTTP:** `500 Internal Server Error`
+
 ---
 ## Licença
 
