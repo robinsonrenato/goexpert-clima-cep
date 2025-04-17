@@ -1,0 +1,15 @@
+version: "3.9"
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080" # Mapeia a porta 8080 do cont�iner para a m�quina host
+    depends_on:
+      - mock-api # Exemplo de depend�ncia de outro servi�o
+
+  mock-api:
+    image: mockserver/mockserver
+    ports:
+      - "1080:1080" # Porta para o mock server
