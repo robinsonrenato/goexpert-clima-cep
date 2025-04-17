@@ -27,7 +27,7 @@ Este projeto é uma aplicação em Go que consulta informações climáticas com
    go run ./cmd/server
    ```
 
-4. **Teste no navegador ou com `curl`:**
+4. **Teste no `Navegador`:**
    ```bash
    http://localhost:8080/weather?cep=01001000
    ```
@@ -48,10 +48,6 @@ Este projeto é uma aplicação em Go que consulta informações climáticas com
 1. **Construa os serviços:**
    ```bash
    docker-compose build
-   ```
-
-2. **Inicie os serviços:**
-   ```bash
    docker-compose up
    ```
 
