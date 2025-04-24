@@ -121,6 +121,33 @@ Este projeto é uma aplicação em Go que consulta informações climáticas com
 
 **Status HTTP:** `500 Internal Server Error`
 
+
+# Deploy no Google Cloud Run
+
+## Pré-requisitos
+- Conta no Google Cloud Platform
+- Google Cloud SDK instalado
+- Projeto criado no Google Cloud
+- Faturamento habilitado no projeto
+
+## Passos para Deploy
+
+1. **Instalar o Google Cloud SDK**
+   - Baixe o instalador: https://cloud.google.com/sdk/docs/install
+   - Execute o instalador
+   - Abra um novo terminal após a instalação
+
+2. **Configurar o ambiente**
+   ```bash
+   gcloud auth login
+   gcloud init
+   ```
+
+2. **Testando projeto**
+   ```bash
+   https://weather-api-670673982186.us-central1.run.app/weather?cep=01001000
+   ```
+   
 ---
 ## Licença
 
