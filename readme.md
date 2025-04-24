@@ -32,6 +32,11 @@ Este projeto é uma aplicação em Go que consulta informações climáticas com
    http://localhost:8080/weather?cep=01001000
    ```
 
+5. **Teste no do Deploy do Google Cloud:**
+   ```bash
+   https://weather-api-670673982186.us-central1.run.app/weather?cep=01001000
+   ```
+
 ---
 
 ## 🧪Como executar os testes
